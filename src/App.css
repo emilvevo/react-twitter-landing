@@ -1,0 +1,150 @@
+.App {
+  background-color: black;
+  color: #d9d9d9;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.icon {
+  margin: 2rem;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+h4 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.googlesign {
+  padding: 1rem;
+  background-color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  width: 300px;
+  height: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black !important;
+  cursor: pointer;
+}
+
+.applesign {
+  padding: 1rem;
+  background-color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  width: 300px;
+  height: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black !important;
+  cursor: pointer;
+}
+
+.phoneoremail {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  width: 300px;
+  height: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  background-color: #1d9bf0;
+  color: white !important ;
+  margin-bottom: 10px;
+}
+
+.signin {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 1.5rem;
+  width: 300px;
+  height: 40px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #1d9bf0;
+  margin-bottom: 10px;
+  margin-top: 1.5rem;
+}
+
+.signin:hover {
+  background-color: #1f1d1d;
+  transition: 0.2s ease all;
+}
+
+.already {
+  color: #d9d9d9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 3rem;
+}
+
+.access {
+  width: 350px;
+  margin-left: 2rem;
+}
+
+a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+.acceptance {
+  font-size: 12px;
+  color: #6e7669;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.or {
+  width: 300px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px 10px;
+}
+
+.apple {
+  font-size: 1.4rem;
+  margin-right: 8px;
+}
+
+/* Footer  */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  min-height: 30px;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  margin-left: 18px;
+  font-size: 13px;
+  color: #6e7669;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
